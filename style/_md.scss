@@ -1,0 +1,174 @@
+@media (min-width: 768px) {
+  img.basketball {
+    content: url("/public/graphictablet.svg");
+    @apply absolute top-[0px] left-[205px] w-[691px] h-[568px];
+  }
+
+  img.football {
+    content: url("/public/graphictablet1.svg");
+    @apply absolute top-[20px] left-[85px] w-[498px] h-[719px];
+  }
+
+  .athlets-section-main {
+    @apply relative top-[81px] left-[-161px] w-full h-[739px];
+  }
+
+  .athlets-section-title {
+    @apply absolute top-[0px] left-[452px] text-71xl;
+  }
+
+  .athlets-section1-content {
+    @apply block;
+    @apply absolute top-[147px] left-[452px] w-[457px] h-[119px];
+
+    .paragraph {
+      @apply absolute top-[63px] left-[0px] leading-[28px] inline-block w-[457px];
+    }
+
+    .header {
+      @apply absolute top-[0px] left-[32px] text-17xl tracking-[1.5px] text-silver;
+    }
+
+    .stripe {
+      @apply absolute top-[30px] left-[1px] rounded-10xs-5 bg-slateblue-100 w-[19px] h-[5px];
+    }
+
+    .number {
+      @apply absolute top-[5px] left-[0px] tracking-[1.5px];
+    }
+  }
+
+  .athlets-section2-bg {
+    @apply block;
+    @apply absolute top-[296px] left-[161px] bg-ghostwhite w-full h-[235px];
+  }
+
+  .athlets-section2-content {
+    @apply block;
+    @apply absolute top-[326px] left-[452px] w-[446.2px] h-[175px];
+
+    .paragraph {
+      @apply absolute top-[63px] left-[0px] leading-[28px] inline-block w-[446.2px];
+    }
+
+    .header {
+      @apply absolute top-[0px] left-[32px] text-17xl tracking-[1.5px] text-silver;
+    }
+
+    .stripe {
+      @apply absolute top-[30px] left-[1px] rounded-10xs-5 bg-slateblue-100 w-[22px] h-[5px];
+    }
+
+    .number {
+      @apply absolute top-[5px] left-[0px] tracking-[1.5px];
+    }
+  }
+
+  .athlets-section3-bg {
+    @apply block;
+    @apply absolute top-[531px] left-[161px] bg-slateblue-200 w-full h-[207px];
+  }
+
+  .athlets-section3-content {
+    @apply block;
+    @apply absolute top-[561px] left-[452px] w-[446.2px] h-[119px] text-white;
+
+    .paragraph {
+      @apply absolute top-[63px] left-[0px] leading-[28px] inline-block w-[446.2px];
+    }
+
+    .header {
+      @apply absolute top-[0px] left-[32px] text-17xl tracking-[1.5px] text-silver;
+    }
+
+    .stripe {
+      @apply absolute top-[31px] left-[1px] rounded-10xs-5 bg-white w-[22px] h-[5px];
+    }
+
+    .number {
+      @apply absolute top-[6px] left-[0px] tracking-[1.5px] text-black;
+    }
+  }
+
+  .player-section-main {
+    @apply relative top-[113px] left-[0px] w-full h-[757px];
+  }
+
+  .player-section-title {
+    @apply absolute top-[19px] left-[31px] text-71xl;
+  }
+
+  .player-section1-content {
+    @apply block;
+    @apply absolute top-[158px] left-[33px] w-[432px] h-[147px];
+
+    .paragraph {
+      @apply absolute top-[63px] left-[0px] leading-[28px] inline-block w-[432px];
+    }
+
+    .header {
+      @apply absolute top-[0px] left-[32px] text-17xl tracking-[1.5px] text-silver;
+    }
+
+    .stripe {
+      @apply absolute top-[30px] left-[1px] rounded-10xs-5 bg-slateblue-100 w-[19px] h-[5px];
+    }
+
+    .number {
+      @apply absolute top-[5px] left-[0px] tracking-[1.5px];
+    }
+  }
+
+  .player-section2-bg {
+    @apply block;
+    @apply bg-ghostwhite;
+    @apply absolute top-[315px] left-[0px] bg-ghostwhite w-full h-[235px];
+  }
+
+  .player-section2-content {
+    @apply block;
+    @apply absolute top-[366px] left-[33px] w-[432px] h-[119px];
+
+    .paragraph {
+      @apply absolute top-[63px] left-[0px] leading-[28px] inline-block w-[432px];
+    }
+
+    .header {
+      @apply absolute top-[0px] left-[32px] text-17xl tracking-[1.5px] text-silver;
+    }
+
+    .stripe {
+      @apply absolute top-[30px] left-[1px] rounded-10xs-5 bg-slateblue-100 w-[22px] h-[5px];
+    }
+
+    .number {
+      @apply absolute top-[5px] left-[0px] tracking-[1.5px];
+    }
+  }
+
+  .player-section3-bg {
+    @apply block;
+    @apply absolute top-[550px] left-[0px] bg-gray w-full h-[207px];
+  }
+
+  .player-section3-content {
+    @apply block;
+    @apply absolute top-[594px] left-[33px] w-[455px] h-[91px] text-white;
+
+    .paragraph {
+      @apply absolute top-[63px] left-[0px] leading-[28px] inline-block w-[455px];
+    }
+
+    .header {
+      @apply absolute top-[0px] left-[32px] text-17xl tracking-[1.5px] text-silver;
+    }
+
+    .stripe {
+      @apply absolute top-[31px] left-[1px] rounded-10xs-5 bg-white w-[22px] h-[5px];
+    }
+
+    .number {
+      @apply absolute top-[6px] left-[0px] tracking-[1.5px] text-slateblue-100;
+    }
+  }
+}

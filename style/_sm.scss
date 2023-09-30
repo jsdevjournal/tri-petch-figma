@@ -1,0 +1,103 @@
+img.basketball {
+  content: url("/public/graphicmobile.svg");
+  @apply absolute top-[80px] w-[302px] h-[251px] left-[calc(50%-302px/2)];
+}
+
+img.football {
+  content: url("/public/graphicmobile1.svg");
+  @apply absolute top-[70px] w-[219px] h-[281px] left-[calc(50%-219px/2)];
+}
+
+.athlets-section-main {
+  @apply relative top-[0px] left-[0px] w-full h-[580px];
+}
+
+.athlets-section-title {
+  @apply text-gainsboro;
+  @apply absolute top-[0px] left-[18px] text-31xl;
+}
+
+.athlets-section1-content {
+  @apply hidden;
+}
+
+.athlets-section2-bg {
+  @apply bg-ghostwhite;
+  @apply absolute top-[296px] left-[0px] bg-ghostwhite w-full h-[284px];
+}
+
+.athlets-section2-content {
+  @apply absolute top-[366px] left-[18px] right-[18px] h-[119px];
+
+  .paragraph {
+    @apply relative top-[53px] left-[0px] inline-block w-full;
+  }
+
+  .header {
+    @apply absolute top-[0px] left-[28px] text-9xl tracking-[1.5px] text-silver;
+  }
+
+  .stripe {
+    @apply absolute top-[25px] left-[1px] rounded-10xs-5 bg-slateblue-100 w-[17px] h-1;
+  }
+
+  .number {
+    @apply absolute top-[7px] left-[0px] text-sm tracking-[1.5px];
+  }
+}
+
+.athlets-section3-bg {
+  @apply bg-slateblue-200;
+  @apply hidden;
+}
+
+.athlets-section3-content {
+  @apply hidden;
+}
+
+.player-section-main {
+  @apply relative top-[19px] left-[0px] w-full h-[534px];
+}
+
+.player-section-title {
+  @apply text-gainsboro;
+  @apply absolute top-[0px] left-[18px] text-31xl;
+}
+
+.player-section1-content {
+  @apply hidden;
+}
+
+.player-section3-bg {
+  @apply bg-ghostwhite;
+  @apply absolute top-[296px] left-[0px] bg-ghostwhite w-full h-[238px];
+}
+
+.player-section3-content {
+  @apply absolute top-[366px] left-[18px] right-[18px] h-[119px];
+
+  .paragraph {
+    @apply relative top-[53px] left-[0px] inline-block w-full;
+  }
+
+  .header {
+    @apply absolute top-[0px] left-[28px] text-9xl tracking-[1.5px] text-silver;
+  }
+
+  .stripe {
+    @apply absolute top-[25px] left-[1px] rounded-10xs-5 bg-slateblue-100 w-[17px] h-1;
+  }
+
+  .number {
+    @apply absolute top-[7px] left-[0px] text-sm tracking-[1.5px];
+  }
+}
+
+.player-section2-bg {
+  @apply bg-gray;
+  @apply hidden;
+}
+
+.player-section2-content {
+  @apply hidden;
+}

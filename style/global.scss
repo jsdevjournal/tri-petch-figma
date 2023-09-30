@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import 'style/sm';
+@import 'style/md';
+@import 'style/lg';
+
+body {
+  @apply leading-[normal] m-0 font-roboto;
+}
+
