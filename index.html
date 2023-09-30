@@ -10,7 +10,7 @@
 </head>
 
 <body>
-  <div class="relative w-full h-[1133px] md:h-[1609px] lg:h-[1867px] text-mini md:text-lg lg:text-xl text-left text-black overflow-hidden">
+  <div class="h-[1133px] md:h-[1609px] lg:h-[1867px] text-mini md:text-lg lg:text-xl text-left text-black overflow-hidden">
     <div class="athlets-section-main">
       <div class="athlets-section-title">
         ATHLETS
@@ -66,7 +66,13 @@
       </div>
 
       <img class="absolute top-[540px] w-full h-2.5 md:hidden" src="/public/dot-pagination1.svg" />
-      <img class="football" />
+
+      <picture>
+        <source srcset="/public/graphicdesktop1.svg" media="(min-width: 1024px)" />
+        <source srcset="/public/graphictablet1.svg" media="(min-width: 768px)" />
+        <img src="/public/graphicmobile1.svg" />
+      </picture>
+
     </div>
 
     <div class="player-section-main">
@@ -121,7 +127,14 @@
       </div>
 
       <img class="absolute top-[494px] w-full h-2.5 md:hidden" src="/public/dot-pagination.svg" />
-      <img class="basketball" />
+      <!-- <img class="basketball" /> -->
+
+      <picture>
+        <source srcset="/public/graphicdesktop.svg" media="(min-width: 1024px)" />
+        <source srcset="/public/graphictablet.svg" media="(min-width: 768px)" />
+        <img src="/public/graphicmobile.svg" />
+      </picture>
+
     </div>
   </div>
 </body>

@@ -4,27 +4,35 @@
     height: 5px;
   }
 
-  img.basketball {
-    content: url("/public/graphictablet.svg");
-    @apply absolute top-[0px] left-[26.7%] w-[691px] h-[568px];
+  .athlets-section-title,
+  .athlets-section1-content,
+  .athlets-section2-content,
+  .athlets-section3-content {
+    @apply left-[38%];
   }
 
-  img.football {
-    content: url("/public/graphictablet1.svg");
-    @apply absolute top-[20px] left-[-76px] w-[498px] h-[719px];
+  .athlets-section1-content,
+  .athlets-section2-content,
+  .athlets-section3-content {
+    @apply w-[58.1%];
   }
 
   .athlets-section-main {
-    @apply relative top-[81px] left-[0px] w-full h-[739px];
+    @apply top-[81px] h-[739px];
+    picture {
+      img {
+        @apply top-[20px] left-[-9.9%] w-[498px] h-[719px];
+      }
+    }
   }
 
   .athlets-section-title {
-    @apply absolute top-[0px] left-[38%] text-71xl;
+    @apply text-71xl;
   }
 
   .athlets-section1-content {
     @apply block;
-    @apply absolute top-[147px] left-[38%] w-[58.1%] h-[119px];
+    @apply top-[147px] h-[119px];
 
     .paragraph {
       @apply absolute top-[63px] left-[0px] leading-[28px] inline-block;
@@ -44,13 +52,11 @@
   }
 
   .athlets-section2-bg {
-    @apply block;
-    @apply absolute top-[296px] bg-ghostwhite w-full h-[235px];
+    @apply top-[194px] h-[235px];
   }
 
   .athlets-section2-content {
-    @apply block;
-    @apply absolute top-[326px] left-[38%] w-[58.1%] h-[175px];
+    @apply block top-[326px] h-[175px];
 
     .paragraph {
       @apply absolute top-[63px] left-[0px] leading-[28px] inline-block;
@@ -70,13 +76,11 @@
   }
 
   .athlets-section3-bg {
-    @apply block;
-    @apply absolute top-[531px] bg-slateblue-200 w-full h-[207px];
+    @apply block top-[194px] h-[207px];
   }
 
   .athlets-section3-content {
-    @apply block;
-    @apply absolute top-[561px] left-[38%] w-[58.1%] h-[119px] text-white;
+    @apply block top-[561px] h-[119px] text-white;
 
     .paragraph {
       @apply absolute top-[63px] left-[0px] leading-[28px] inline-block;
@@ -95,17 +99,36 @@
     }
   }
 
+
+  .player-section-title,
+  .player-section1-content,
+  .player-section2-content,
+  .player-section3-content {
+    @apply left-[4.2%];
+  }
+
+  .player-section1-content,
+  .player-section2-content,
+  .player-section3-content {
+    @apply w-[56.25%];
+  }
+
+
   .player-section-main {
-    @apply relative top-[113px] left-[0px] w-full h-[757px];
+    @apply relative top-[113px] left-[0px] h-[757px];
+    picture {
+      img {
+        @apply top-[0px] left-[26.7%] w-[691px] h-[568px];
+      }
+    }
   }
 
   .player-section-title {
-    @apply absolute top-[19px] left-[4.2%] text-71xl;
+    @apply top-[19px] text-71xl;
   }
 
   .player-section1-content {
-    @apply block;
-    @apply absolute top-[158px] left-[4.2%] w-[56.25%] h-[147px];
+    @apply block top-[158px] h-[147px];
 
     .paragraph {
       @apply absolute top-[63px] left-[0px] leading-[28px] inline-block;
@@ -125,14 +148,11 @@
   }
 
   .player-section2-bg {
-    @apply block;
-    @apply bg-ghostwhite;
-    @apply absolute top-[315px] left-[0px] bg-ghostwhite w-full h-[235px];
+    @apply block top-[210px] h-[235px];
   }
 
   .player-section2-content {
-    @apply block;
-    @apply absolute top-[366px] left-[4.2%] w-[56.25%] h-[119px];
+    @apply block top-[366px] h-[119px];
 
     .paragraph {
       @apply absolute top-[63px] left-[0px] leading-[28px] inline-block;
@@ -152,13 +172,11 @@
   }
 
   .player-section3-bg {
-    @apply block;
-    @apply absolute top-[550px] left-[0px] bg-gray w-full h-[207px];
+    @apply top-[210px] bg-gray h-[207px];
   }
 
   .player-section3-content {
-    @apply block;
-    @apply absolute top-[594px] left-[4.2%] w-[56.25%] h-[91px] text-white;
+    @apply top-[594px] h-[91px] text-white;
 
     .paragraph {
       @apply absolute top-[63px] left-[0px] leading-[28px] inline-block;
