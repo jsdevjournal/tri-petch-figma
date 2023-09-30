@@ -8,6 +8,11 @@ img.football {
   @apply absolute top-[70px] w-[219px] h-[281px] left-[calc(50%-219px/2)];
 }
 
+.stripe {
+  height: 4px;
+  width: 17px;
+}
+
 .athlets-section-main {
   @apply relative top-[0px] left-[0px] w-full h-[580px];
 }
@@ -38,7 +43,7 @@ img.football {
   }
 
   .stripe {
-    @apply absolute top-[25px] left-[1px] rounded-10xs-5 bg-slateblue-100 w-[17px] h-1;
+    @apply absolute top-[25px] left-[1px] rounded-10xs-5 bg-slateblue-100 ;
   }
 
   .number {
@@ -85,7 +90,7 @@ img.football {
   }
 
   .stripe {
-    @apply absolute top-[25px] left-[1px] rounded-10xs-5 bg-slateblue-100 w-[17px] h-1;
+    @apply absolute top-[25px] left-[1px] rounded-10xs-5 bg-slateblue-100;
   }
 
   .number {

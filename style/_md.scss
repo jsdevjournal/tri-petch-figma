@@ -1,28 +1,33 @@
 @media (min-width: 768px) {
+  .stripe {
+    width: 22px;
+    height: 5px;
+  }
+
   img.basketball {
     content: url("/public/graphictablet.svg");
-    @apply absolute top-[0px] left-[205px] w-[691px] h-[568px];
+    @apply absolute top-[0px] left-[26.7%] w-[691px] h-[568px];
   }
 
   img.football {
     content: url("/public/graphictablet1.svg");
-    @apply absolute top-[20px] left-[85px] w-[498px] h-[719px];
+    @apply absolute top-[20px] left-[-76px] w-[498px] h-[719px];
   }
 
   .athlets-section-main {
-    @apply relative top-[81px] left-[-161px] w-full h-[739px];
+    @apply relative top-[81px] left-[0px] w-full h-[739px];
   }
 
   .athlets-section-title {
-    @apply absolute top-[0px] left-[452px] text-71xl;
+    @apply absolute top-[0px] left-[38%] text-71xl;
   }
 
   .athlets-section1-content {
     @apply block;
-    @apply absolute top-[147px] left-[452px] w-[457px] h-[119px];
+    @apply absolute top-[147px] left-[38%] w-[58.1%] h-[119px];
 
     .paragraph {
-      @apply absolute top-[63px] left-[0px] leading-[28px] inline-block w-[457px];
+      @apply absolute top-[63px] left-[0px] leading-[28px] inline-block;
     }
 
     .header {
@@ -30,25 +35,25 @@
     }
 
     .stripe {
-      @apply absolute top-[30px] left-[1px] rounded-10xs-5 bg-slateblue-100 w-[19px] h-[5px];
+      @apply absolute top-[30px] left-[1px] rounded-10xs-5 bg-slateblue-100 ;
     }
 
     .number {
-      @apply absolute top-[5px] left-[0px] tracking-[1.5px];
+      @apply absolute text-lg top-[5px] left-[0px] tracking-[1.5px];
     }
   }
 
   .athlets-section2-bg {
     @apply block;
-    @apply absolute top-[296px] left-[161px] bg-ghostwhite w-full h-[235px];
+    @apply absolute top-[296px] bg-ghostwhite w-full h-[235px];
   }
 
   .athlets-section2-content {
     @apply block;
-    @apply absolute top-[326px] left-[452px] w-[446.2px] h-[175px];
+    @apply absolute top-[326px] left-[38%] w-[58.1%] h-[175px];
 
     .paragraph {
-      @apply absolute top-[63px] left-[0px] leading-[28px] inline-block w-[446.2px];
+      @apply absolute top-[63px] left-[0px] leading-[28px] inline-block;
     }
 
     .header {
@@ -56,25 +61,25 @@
     }
 
     .stripe {
-      @apply absolute top-[30px] left-[1px] rounded-10xs-5 bg-slateblue-100 w-[22px] h-[5px];
+      @apply absolute top-[30px] left-[1px] rounded-10xs-5 bg-slateblue-100 ;
     }
 
     .number {
-      @apply absolute top-[5px] left-[0px] tracking-[1.5px];
+      @apply absolute text-lg top-[5px] left-[0px] tracking-[1.5px];
     }
   }
 
   .athlets-section3-bg {
     @apply block;
-    @apply absolute top-[531px] left-[161px] bg-slateblue-200 w-full h-[207px];
+    @apply absolute top-[531px] bg-slateblue-200 w-full h-[207px];
   }
 
   .athlets-section3-content {
     @apply block;
-    @apply absolute top-[561px] left-[452px] w-[446.2px] h-[119px] text-white;
+    @apply absolute top-[561px] left-[38%] w-[58.1%] h-[119px] text-white;
 
     .paragraph {
-      @apply absolute top-[63px] left-[0px] leading-[28px] inline-block w-[446.2px];
+      @apply absolute top-[63px] left-[0px] leading-[28px] inline-block;
     }
 
     .header {
@@ -82,11 +87,11 @@
     }
 
     .stripe {
-      @apply absolute top-[31px] left-[1px] rounded-10xs-5 bg-white w-[22px] h-[5px];
+      @apply absolute top-[31px] left-[1px] rounded-10xs-5 bg-white ;
     }
 
     .number {
-      @apply absolute top-[6px] left-[0px] tracking-[1.5px] text-black;
+      @apply absolute text-lg top-[6px] left-[0px] tracking-[1.5px] text-black;
     }
   }
 
@@ -95,15 +100,15 @@
   }
 
   .player-section-title {
-    @apply absolute top-[19px] left-[31px] text-71xl;
+    @apply absolute top-[19px] left-[4.2%] text-71xl;
   }
 
   .player-section1-content {
     @apply block;
-    @apply absolute top-[158px] left-[33px] w-[432px] h-[147px];
+    @apply absolute top-[158px] left-[4.2%] w-[56.25%] h-[147px];
 
     .paragraph {
-      @apply absolute top-[63px] left-[0px] leading-[28px] inline-block w-[432px];
+      @apply absolute top-[63px] left-[0px] leading-[28px] inline-block;
     }
 
     .header {
@@ -111,11 +116,11 @@
     }
 
     .stripe {
-      @apply absolute top-[30px] left-[1px] rounded-10xs-5 bg-slateblue-100 w-[19px] h-[5px];
+      @apply absolute top-[30px] left-[1px] rounded-10xs-5 bg-slateblue-100 ;
     }
 
     .number {
-      @apply absolute top-[5px] left-[0px] tracking-[1.5px];
+      @apply absolute text-lg top-[5px] left-[0px] tracking-[1.5px];
     }
   }
 
@@ -127,10 +132,10 @@
 
   .player-section2-content {
     @apply block;
-    @apply absolute top-[366px] left-[33px] w-[432px] h-[119px];
+    @apply absolute top-[366px] left-[4.2%] w-[56.25%] h-[119px];
 
     .paragraph {
-      @apply absolute top-[63px] left-[0px] leading-[28px] inline-block w-[432px];
+      @apply absolute top-[63px] left-[0px] leading-[28px] inline-block;
     }
 
     .header {
@@ -138,11 +143,11 @@
     }
 
     .stripe {
-      @apply absolute top-[30px] left-[1px] rounded-10xs-5 bg-slateblue-100 w-[22px] h-[5px];
+      @apply absolute top-[30px] left-[1px] rounded-10xs-5 bg-slateblue-100 ;
     }
 
     .number {
-      @apply absolute top-[5px] left-[0px] tracking-[1.5px];
+      @apply absolute text-lg top-[5px] left-[0px] tracking-[1.5px];
     }
   }
 
@@ -153,10 +158,10 @@
 
   .player-section3-content {
     @apply block;
-    @apply absolute top-[594px] left-[33px] w-[455px] h-[91px] text-white;
+    @apply absolute top-[594px] left-[4.2%] w-[56.25%] h-[91px] text-white;
 
     .paragraph {
-      @apply absolute top-[63px] left-[0px] leading-[28px] inline-block w-[455px];
+      @apply absolute top-[63px] left-[0px] leading-[28px] inline-block;
     }
 
     .header {
@@ -164,11 +169,11 @@
     }
 
     .stripe {
-      @apply absolute top-[31px] left-[1px] rounded-10xs-5 bg-white w-[22px] h-[5px];
+      @apply absolute top-[31px] left-[1px] rounded-10xs-5 bg-white ;
     }
 
     .number {
-      @apply absolute top-[6px] left-[0px] tracking-[1.5px] text-slateblue-100;
+      @apply absolute text-lg top-[6px] left-[0px] tracking-[1.5px] text-slateblue-100;
     }
   }
 }

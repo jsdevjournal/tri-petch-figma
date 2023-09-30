@@ -1,4 +1,5 @@
 @media (min-width: 1024px) {
+
   img.basketball {
     content: url("/public/graphicdesktop.svg");
     @apply absolute h-[81.66%] w-[51.61%] top-[0%] right-[6.51%] bottom-[18.34%] left-[41.88%] max-w-full overflow-hidden max-h-full;
@@ -25,15 +26,16 @@
     }
 
     .header {
-      @apply absolute top-[calc(50%_-_50.5px)] left-[5.32%] text-17xl tracking-[1.5px] text-silver;
+      @apply absolute top-[calc(50%_-_50.5px)] text-17xl tracking-[1.5px] text-silver;
     }
 
     .stripe {
-      @apply absolute h-[4.95%] w-[3.16%] top-[29.7%] right-[96.67%] bottom-[65.35%] left-[0.17%] rounded-10xs-5 bg-slateblue-100;
+      width: 19px;
+      @apply absolute top-[29.7%] right-[96.67%] bottom-[65.35%] left-[0.17%] rounded-10xs-5 bg-slateblue-100;
     }
 
     .number {
-      @apply absolute top-[4.95%] left-[0%] text-lg tracking-[1.5px];
+      @apply absolute top-[4.95%] left-[0%] ;
     }
   }
 
@@ -49,15 +51,15 @@
     }
 
     .header {
-      @apply absolute top-[calc(50%_-_73.5px)] left-[4.46%] text-17xl tracking-[1.5px] text-silver;
+      @apply absolute top-[calc(50%_-_73.5px)] text-17xl tracking-[1.5px] text-silver;
     }
 
     .stripe {
-      @apply absolute h-[3.4%] w-[3.07%] top-[20.41%] right-[96.79%] bottom-[76.19%] left-[0.14%] rounded-10xs-5 bg-slateblue-100;
+      @apply absolute top-[20.41%] right-[96.79%] bottom-[76.19%] left-[0.14%] rounded-10xs-5 bg-slateblue-100;
     }
 
     .number {
-      @apply absolute top-[3.4%] left-[0%] text-lg tracking-[1.5px];
+      @apply absolute top-[3.4%] left-[0%] ;
     }
   }
 
@@ -73,15 +75,15 @@
     }
 
     .header {
-      @apply absolute top-[calc(50%_-_59.5px)] left-[4.46%] text-17xl tracking-[1.5px] text-silver;
+      @apply absolute top-[calc(50%_-_59.5px)] text-17xl tracking-[1.5px] text-silver;
     }
 
     .stripe {
-      @apply absolute h-[4.2%] w-[3.07%] top-[26.05%] right-[96.79%] bottom-[69.75%] left-[0.14%] rounded-10xs-5 bg-white;
+      @apply absolute top-[26.05%] right-[96.79%] bottom-[69.75%] left-[0.14%] rounded-10xs-5 bg-white;
     }
 
     .number {
-      @apply absolute top-[5.04%] left-[0.14%] text-lg tracking-[1.5px] text-black;
+      @apply absolute top-[5.04%] left-[0.14%]  text-black;
     }
   }
 
@@ -101,15 +103,16 @@
     }
 
     .header {
-      @apply absolute top-[calc(50%_-_59.5px)] left-[5.6%] text-17xl tracking-[1.5px] text-silver;
+      @apply absolute top-[calc(50%_-_59.5px)] text-17xl tracking-[1.5px] text-silver;
     }
 
     .stripe {
-      @apply absolute h-[4.2%] w-[3.33%] top-[25.21%] right-[96.5%] bottom-[70.59%] left-[0.18%] rounded-10xs-5 bg-slateblue-100;
+      width: 19px;
+      @apply absolute top-[25.21%] right-[96.5%] bottom-[70.59%] left-[0.18%] rounded-10xs-5 bg-slateblue-100;
     }
 
     .number {
-      @apply absolute top-[calc(50%_-_54.5px)] left-[0%] text-lg tracking-[1.5px];
+      @apply absolute top-[calc(50%_-_54.5px)] left-[0%] ;
     }
   }
 
@@ -125,15 +128,15 @@
     }
 
     .header {
-      @apply absolute top-[calc(50%_-_45.5px)] left-[4.46%] text-17xl tracking-[1.5px] text-silver;
+      @apply absolute top-[calc(50%_-_45.5px)] text-17xl tracking-[1.5px] text-silver;
     }
 
     .stripe {
-      @apply absolute h-[5.49%] w-[3.07%] top-[32.97%] right-[96.79%] bottom-[61.54%] left-[0.14%] rounded-10xs-5 bg-slateblue-100;
+      @apply absolute top-[32.97%] right-[96.79%] bottom-[61.54%] left-[0.14%] rounded-10xs-5 bg-slateblue-100;
     }
 
     .number {
-      @apply absolute top-[calc(50%_-_40.5px)] left-[0%] text-lg tracking-[1.5px];
+      @apply absolute top-[calc(50%_-_40.5px)] left-[0%] ;
     }
   }
 
@@ -149,15 +152,15 @@
     }
 
     .header {
-      @apply absolute top-[calc(50%_-_45.5px)] left-[4.46%] text-17xl tracking-[1.5px] text-silver;
+      @apply absolute top-[calc(50%_-_45.5px)] text-17xl tracking-[1.5px] text-silver;
     }
 
     .stripe {
-      @apply absolute h-[5.49%] w-[3.07%] top-[34.07%] right-[96.79%] bottom-[60.44%] left-[0.14%] rounded-10xs-5 bg-white;
+      @apply absolute top-[34.07%] right-[96.79%] bottom-[60.44%] left-[0.14%] rounded-10xs-5 bg-white;
     }
 
     .number {
-      @apply absolute top-[calc(50%_-_39.5px)] left-[0%] text-lg tracking-[1.5px] text-mediumslateblue;
+      @apply absolute top-[calc(50%_-_39.5px)] left-[0%]  text-mediumslateblue;
     }
   }
 
